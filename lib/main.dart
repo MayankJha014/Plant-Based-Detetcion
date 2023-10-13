@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plant_based_detection/plant_detail.dart';
 import 'package:plant_based_detection/splash_screen.dart';
 
 void main() {
@@ -18,9 +17,7 @@ class _PlantBasedDetetcionState extends State<PlantBasedDetetcion> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PlantDetail(
-        plantName: "Tulsi",
-      ),
+      home: SplashScreen(),
       themeMode: ThemeMode.dark,
     );
   }

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:plant_based_detection/global.dart';
 
 class PlantBox extends StatelessWidget {
-  const PlantBox({super.key});
+  final int index;
+  const PlantBox({super.key, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -19,12 +21,12 @@ class PlantBox extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(10),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Padding(
-            padding: EdgeInsets.only(right: 18.0),
-            child: Image(
-              image: AssetImage('assets/neem.jpg'),
+            padding: const EdgeInsets.only(right: 18.0),
+            child: Image.network(
+              plantList[index].image,
               width: 100,
               height: 60,
               fit: BoxFit.fill,
@@ -32,13 +34,13 @@ class PlantBox extends StatelessWidget {
           ),
           Expanded(
             child: Text(
-              'Neem',
-              style: TextStyle(
+              plantList[index].localName,
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
               ),
             ),
           ),
-          Padding(
+          const Padding(
             padding: EdgeInsets.only(right: 18.0),
             child: Image(
               image: AssetImage('assets/right_arrow.png'),

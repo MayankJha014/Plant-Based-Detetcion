@@ -13,7 +13,7 @@ class ImageDetetcion {
     try {
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://192.168.1.7:8000/predict'),
+        Uri.parse('http://192.168.1.14:8000/predict'),
       );
 
       // Add the image file to the request as a MultipartFile
@@ -29,6 +29,7 @@ class ImageDetetcion {
       //     {'file': image.path},
       //   ),
       // );
+      print(response);
       if (response.statusCode == 200) {
         // If the request is successful, parse the response
         var responseBody = await response.stream.bytesToString();
