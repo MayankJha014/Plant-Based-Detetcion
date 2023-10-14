@@ -1,76 +1,26 @@
-Plant Leaf Ayurvedic Advantage Detector (Flutter)
-Project Image
 
-Table of Contents
-About
-Demo
-Features
-Getting Started
-Prerequisites
-Installation
-Usage
-Contributing
-License
-Acknowledgements
-About
-The Plant Leaf Ayurvedic Advantage Detector is a Flutter-based mobile application that leverages image recognition to identify various plant leaves and provide information about their Ayurvedic benefits. This project combines the power of Flutter for the front-end with a backend service for image recognition and Ayurvedic knowledge to assist users in identifying plants and understanding their potential medicinal properties.
+# Plant Based Detection
 
-Demo
-You can see a live demo of the Plant Leaf Ayurvedic Advantage Detector at Demo Link.
+The Plant Detection Flutter App is a mobile application designed to make plant identification and Ayurvedic knowledge accessible to everyone. With the power of Flutter, this app combines user-friendly mobile interfaces with a robust backend service for image recognition. Whether you're an enthusiast or a nature lover, this app is designed to provide information about various plant leaves, helping you make informed decisions about the plants you encounter.
 
-Demo Screenshots
 
-Features
-Plant Leaf Recognition: Automatically identifies different types of plant leaves using image recognition.
-Ayurvedic Advantage Information: Provides detailed information about the Ayurvedic benefits associated with the recognized plant.
-User-Friendly Mobile Interface: An intuitive and mobile-friendly interface for easy interaction.
-Extensible Backend: The project includes a backend service for image recognition, making it easy to extend the dataset for more plant varieties and Ayurvedic information.
-Getting Started
-Prerequisites
-Flutter installed on your development machine.
-Access to the backend service or API for plant image recognition.
-Any additional dependencies or tools specific to your project.
-Installation
-Clone the Flutter project repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/yourusername/plant-leaf-ayurvedic-advantage-flutter.git
-Navigate to the project directory:
+- Plant Leaf Recognition: Automatically identifies different types of plant leaves through image recognition.
+- Ayurvedic Insights: Provides detailed information about both the Ayurvedic advantages and disadvantages of recognized plants.
+- User-Friendly Interface: A responsive and intuitive mobile interface for easy interaction.
+- Extendable Backend: The backend service allows for easy updates and additions to the database of plant varieties and Ayurvedic information.
 
-bash
-Copy code
-cd plant-leaf-ayurvedic-advantage-flutter
-Install Flutter dependencies:
 
-bash
-Copy code
-flutter pub get
-Configure the backend service/API for image recognition. Update the API endpoints in the Flutter code as needed.
+## How its Works
 
-Usage
-Build and run the Flutter application on an emulator or physical device:
+- Capture or Upload: Use the mobile app to capture a photo of a plant leaf or upload an existing image.
+- Recognition: The app employs image recognition to identify the plant's species.
+- Ayurvedic Information: Receive a comprehensive report on the Ayurvedic advantages and disadvantages of the recognized plant.
+## Demo
 
-bash
-Copy code
-flutter run
-Use the mobile app to capture or upload an image of a plant leaf.
-
-The application will recognize the plant and provide detailed information about its Ayurvedic advantages.
-
-Contributing
-We welcome contributions to improve this project. To contribute, please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes.
-Test your changes.
-Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Thanks to [Name] for their contributions.
-The image recognition backend service is based on [Service Name].
-The Ayurvedic information is sourced from [Source Name].
-Feel free to customize this README to include additional information about your Flutter project and its dependencies. Be sure to update the links, images, and placeholders with actual information and resources related to your project.
+<div style="display: flex; justify-content: space-between; align-items: center; padding:20px;">
+  <img src="https://github.com/MayankJha014/Plant-Based-Detetcion/assets/132004139/849d93ac-b609-40a0-a6c8-b873880c346d" alt="Image 1" style="margin-right: 10px;">
+  <img src="https://github.com/MayankJha014/Plant-Based-Detetcion/assets/132004139/6e7a6cf5-a8e2-4b88-9aa5-bf28ea0b16e8" alt="Image 2" style="margin-right: 10px;">
+  <img src="https://github.com/MayankJha014/Plant-Based-Detetcion/assets/132004139/50825e3d-181e-49e1-9859-7d66fbf39a81" alt="Image 3">
+</div>
