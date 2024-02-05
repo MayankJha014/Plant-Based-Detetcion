@@ -13,7 +13,7 @@ class ImageDetetcion {
     try {
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://192.168.1.14:8000/predict'),
+        Uri.parse('http://10.0.42.26:8000/predict'),
       );
 
       // Add the image file to the request as a MultipartFile

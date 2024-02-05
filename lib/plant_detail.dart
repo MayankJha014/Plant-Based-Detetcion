@@ -243,7 +243,7 @@ class _PlantDetailState extends State<PlantDetail>
                     ),
                     Center(
                       child: SizedBox(
-                        height: 290,
+                        height: 350,
                         child: Swiper(
                           loop: true,
                           controller: swiperController,

@@ -30,6 +30,9 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       images = res;
     });
+    if (images == null) {
+      return;
+    }
     Navigator.of(context).push(MaterialPageRoute(
         builder: (_) => PlantDetail(
               plantImg: images!,
@@ -124,41 +127,6 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                 ),
-                // Padding(
-                //   padding: const EdgeInsets.symmetric(
-                //       horizontal: 30.0, vertical: 20),
-                //   child: Container(
-                //     padding: const EdgeInsets.all(5),
-                //     decoration: BoxDecoration(
-                //       color: Colors.white30,
-                //       borderRadius: BorderRadius.circular(10),
-                //     ),
-                //     child: TabBar(
-                //         unselectedLabelColor: Colors.redAccent,
-                //         indicatorPadding: const EdgeInsets.all(
-                //           2,
-                //         ),
-                //         indicator: ShapeDecoration(
-                //           color: const Color.fromARGB(255, 240, 238, 238),
-                //           shape: RoundedRectangleBorder(
-                //             borderRadius: BorderRadius.circular(10),
-                //           ),
-                //         ),
-                //         tabs: [
-                //           Tab(
-                //             child: Container(
-                //               child: const Align(
-                //                 alignment: Alignment.center,
-                //                 child: Text(
-                //                   "Scan",
-                //                   style: TextStyle(color: Colors.black),
-                //                 ),
-                //               ),
-                //             ),
-                //           ),
-                //         ]),
-                //   ),
-                // ),
                 const SizedBox(
                   height: 20,
                 ),

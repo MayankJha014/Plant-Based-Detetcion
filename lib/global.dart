@@ -4,7 +4,8 @@ List<PlantDetailModel> plantList = [
   PlantDetailModel(
     localName: 'Saptaparna',
     scientific: 'Alstonia Scholaris',
-    image: 'https://m.media-amazon.com/images/I/71OUQvEB5dS.jpg',
+    image:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alstonia_scholaris_flower.jpg/2560px-Alstonia_scholaris_flower.jpg',
     description:
         'Alstonia scholaris is a medium to large tree, to about 40 m high with a somewhat tessellated corky grey to grey-white bark. The boles of larger trees are strongly fluted to 10 m. The outer blaze is cream to yellowish in colour with abundant, milky latex that flows rapidly when cut.',
     advantage: [
@@ -21,7 +22,8 @@ List<PlantDetailModel> plantList = [
   PlantDetailModel(
     localName: 'Arjun',
     scientific: 'Terminalia Arjuna',
-    image: 'https://5.imimg.com/data5/KS/SB/MY-23464170/arjun-tree.jpg',
+    image:
+        'https://upload.wikimedia.org/wikipedia/commons/5/56/Terminalia_arjuna_leaves_01_by_Line1.JPG',
     description:
         'Arjuna is a large deciduous tree with spreading crown and drooping branches. It attains a height of up to 35 m. Its bark is thick, grey to pinkish green, smooth, thin, coming off in irregular sheets.',
     advantage: [
@@ -40,7 +42,7 @@ List<PlantDetailModel> plantList = [
     localName: 'Bael',
     scientific: 'Aegle marmelos',
     image:
-        'https://t4.ftcdn.net/jpg/04/82/17/51/360_F_482175159_YI6IvgvL5Y4kexBREuBlQONqwPvWYHxY.jpg',
+        'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2022/9/26/bael-image.jpg.transform/576x300/image.jpg',
     description:
         'Bael is a slow-growing, tough, medium-sized subtropical tree and is the only plant belonging to the genus, Aegle. The tree bears fruit once a year during summer, which, in India, is from March to June. The fruits are either round, pyriform, oval, or oblong in shape and are of both medicinal and dietary use.',
     advantage: [
@@ -58,7 +60,7 @@ List<PlantDetailModel> plantList = [
     localName: 'Mango',
     scientific: 'Mangifera indica',
     image:
-        'https://www.mango.org/wp-content/uploads/2020/04/dwarf-mango-tree-1.jpg',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/1200px-Mangoes_%28Magnifera_indica%29_from_India.jpg',
     description:
         'The tree is evergreen, often reaching 15–18 metres (50–60 feet) in height and attaining great age. The simple leaves are lanceolate, up to 30 cm (12 inches) long. The flowers—small, pinkish, and fragrant—are borne in large terminal panicles (loose clusters). Some have both stamens and pistils, while others have stamens only.',
     advantage: [

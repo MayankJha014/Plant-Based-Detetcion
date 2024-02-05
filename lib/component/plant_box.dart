@@ -10,8 +10,8 @@ class PlantBox extends StatelessWidget {
     var size = MediaQuery.of(context).size;
 
     return Container(
-      width: size.width,
-      height: 85,
+      width: size.width * 0.8,
+      height: 95,
       padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
         color: const Color.fromARGB(101, 255, 255, 255),
